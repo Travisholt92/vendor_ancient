@@ -162,7 +162,7 @@ include vendor/ancient/config/packages.mk
 
 # Lineage specific permissions
 PRODUCT_COPY_FILES += \
-    vendor/bliss/config/permissions/org.lineageos.android.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/org.lineageos.android.xml
+    vendor/ancient/config/permissions/org.lineageos.android.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/org.lineageos.android.xml
 include vendor/ancient/config/lineage_sdk_common.mk
 
 # Plugins
